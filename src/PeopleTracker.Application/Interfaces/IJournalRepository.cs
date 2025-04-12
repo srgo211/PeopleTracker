@@ -1,6 +1,6 @@
 ﻿using PeopleTracker.Domain.Entities;
 
-namespace PeopleTracker.Application;
+namespace PeopleTracker.Application.Interfaces;
 
 /// <summary>Интерфейс репозитория для журнала посещаемости</summary>
 public interface IJournalRepository

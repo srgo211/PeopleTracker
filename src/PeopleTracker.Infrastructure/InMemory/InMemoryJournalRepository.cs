@@ -1,4 +1,4 @@
-﻿using PeopleTracker.Application;
+﻿using PeopleTracker.Application.Interfaces;
 using PeopleTracker.Domain.Entities;
 
 namespace PeopleTracker.Infrastructure.InMemory;
