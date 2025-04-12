@@ -14,6 +14,9 @@ public interface IJournalRepository
     /// <summary>Получить записи по пользователю и дате</summary>
     Task<JournalRecord?> GetByUserAndDateAsync(int userId, DateOnly date);
 
+    /// <summary>Получить записи по пользователю и диапазону дат</summary>
+    Task<IReadOnlyList<JournalRecord>> GetByUserAndPeriodAsync(int userId, DateOnly from, DateOnly to);
+
     /// <summary>Добавить запись</summary>
     Task AddAsync(JournalRecord record);
 

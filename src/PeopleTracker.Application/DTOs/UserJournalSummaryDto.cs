@@ -9,7 +9,7 @@ public sealed class UserJournalSummaryDto
     public int UserId { get; init; }
 
     /// <summary>ФИО пользователя (может быть null)</summary>
-    public string? UserFullName { get; init; }
+    public UserShortDto User { get; init; }
 
     /// <summary>Дата начала периода</summary>
     public DateOnly From { get; init; }

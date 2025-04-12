@@ -52,6 +52,19 @@ public sealed class InMemoryJournalRepository : IJournalRepository
         }
     }
 
+
+    public Task<IReadOnlyList<JournalRecord>> GetByUserAndPeriodAsync(int userId, DateOnly from, DateOnly to)
+    {
+        lock (_lock)
+        {
+            var filtered = _datas
+                .Where(r => r.UserId == userId && r.Date >= from && r.Date <= to)
+                .ToList();
+
+            return Task.FromResult<IReadOnlyList<JournalRecord>>(filtered);
+        }
+    }
+
     /// <summary>Получить запись по Id</summary>
     public Task<JournalRecord?> GetByIdAsync(int id)
     {
