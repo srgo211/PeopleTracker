@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{326F18A8-1E59-4960-8F4A-A750364B3A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.Domain", "src\PeopleTracker.Domain\PeopleTracker.Domain.csproj", "{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.Application", "src\PeopleTracker.Application\PeopleTracker.Application.csproj", "{8EB8458C-AF0D-43AF-8CF0-37DB824C652C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.Infrastructure", "src\PeopleTracker.Infrastructure\PeopleTracker.Infrastructure.csproj", "{3073F0E5-392D-46BA-BC23-1CA87DAACCDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.SharedKernel", "src\PeopleTracker.SharedKernel\PeopleTracker.SharedKernel.csproj", "{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{45395219-1C4E-4477-A99B-99D227B44504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.MauiApp", "apps\PeopleTracker.MauiApp\PeopleTracker.MauiApp.csproj", "{74817AA8-8220-435D-8521-B2B21F2C6B74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.TelegramBot", "apps\PeopleTracker.TelegramBot\PeopleTracker.TelegramBot.csproj", "{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.WebApi", "apps\PeopleTracker.WebApi\PeopleTracker.WebApi.csproj", "{91041705-F48B-4FAF-A20D-C5F933EE5364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{08A1A2CC-FA57-4468-BDDD-8069E33E4450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.UnitTests", "tests\PeopleTracker.UnitTests\PeopleTracker.UnitTests.csproj", "{5188261D-A798-45F7-AF98-9E96B0AC4EE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleTracker.IntegrationTests", "tests\PeopleTracker.IntegrationTests\PeopleTracker.IntegrationTests.csproj", "{7B830676-BA47-4A5E-9C92-4A8B64CEAC42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB8458C-AF0D-43AF-8CF0-37DB824C652C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB8458C-AF0D-43AF-8CF0-37DB824C652C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB8458C-AF0D-43AF-8CF0-37DB824C652C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB8458C-AF0D-43AF-8CF0-37DB824C652C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3073F0E5-392D-46BA-BC23-1CA87DAACCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3073F0E5-392D-46BA-BC23-1CA87DAACCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3073F0E5-392D-46BA-BC23-1CA87DAACCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3073F0E5-392D-46BA-BC23-1CA87DAACCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74817AA8-8220-435D-8521-B2B21F2C6B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74817AA8-8220-435D-8521-B2B21F2C6B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74817AA8-8220-435D-8521-B2B21F2C6B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74817AA8-8220-435D-8521-B2B21F2C6B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91041705-F48B-4FAF-A20D-C5F933EE5364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91041705-F48B-4FAF-A20D-C5F933EE5364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91041705-F48B-4FAF-A20D-C5F933EE5364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91041705-F48B-4FAF-A20D-C5F933EE5364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5188261D-A798-45F7-AF98-9E96B0AC4EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5188261D-A798-45F7-AF98-9E96B0AC4EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5188261D-A798-45F7-AF98-9E96B0AC4EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5188261D-A798-45F7-AF98-9E96B0AC4EE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B830676-BA47-4A5E-9C92-4A8B64CEAC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B830676-BA47-4A5E-9C92-4A8B64CEAC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B830676-BA47-4A5E-9C92-4A8B64CEAC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B830676-BA47-4A5E-9C92-4A8B64CEAC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16BA2BD9-1B52-4A1A-9691-EF73C5DB16B9} = {326F18A8-1E59-4960-8F4A-A750364B3A51}
+		{8EB8458C-AF0D-43AF-8CF0-37DB824C652C} = {326F18A8-1E59-4960-8F4A-A750364B3A51}
+		{3073F0E5-392D-46BA-BC23-1CA87DAACCDE} = {326F18A8-1E59-4960-8F4A-A750364B3A51}
+		{DB8EF4B6-19EC-46DD-9677-AEE3DEC88A8D} = {326F18A8-1E59-4960-8F4A-A750364B3A51}
+		{74817AA8-8220-435D-8521-B2B21F2C6B74} = {45395219-1C4E-4477-A99B-99D227B44504}
+		{9EE5D0AB-14A2-432C-B2BB-C000B90ACC76} = {45395219-1C4E-4477-A99B-99D227B44504}
+		{91041705-F48B-4FAF-A20D-C5F933EE5364} = {45395219-1C4E-4477-A99B-99D227B44504}
+		{5188261D-A798-45F7-AF98-9E96B0AC4EE7} = {08A1A2CC-FA57-4468-BDDD-8069E33E4450}
+		{7B830676-BA47-4A5E-9C92-4A8B64CEAC42} = {08A1A2CC-FA57-4468-BDDD-8069E33E4450}
+	EndGlobalSection
+EndGlobal
