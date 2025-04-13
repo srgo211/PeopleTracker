@@ -1,5 +1,7 @@
 ﻿
 
+using Telerik.Maui.Controls.Compatibility;
+
 namespace PeopleTracker.MauiApp;
 
 public static class MauiProgram
@@ -9,6 +11,7 @@ public static class MauiProgram
         var builder = Microsoft.Maui.Hosting.MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
+            .UseTelerik()
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

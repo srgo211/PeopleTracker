@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
              x:Class="PeopleTracker.MauiApp.MainPage">
 
     <ScrollView>
@@ -25,11 +26,17 @@
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
 
             <Button
+                
                 x:Name="CounterBtn"
                 Text="Click me" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
+                
                 HorizontalOptions="Fill" />
+
+            <telerik:RadButton x:Name="toggleButton"
+                               Text="Click me"   Clicked="OnCounterClicked"  />
+
         </VerticalStackLayout>
     </ScrollView>
 
