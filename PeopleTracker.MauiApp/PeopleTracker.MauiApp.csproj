@@ -70,10 +70,15 @@
 		
 	  <Reference Include="Telerik.Licensing.Runtime">
 	    <HintPath>..\..\..\TrialTelerik\NET_Maui10.1.0\Binaries\Net9\Shared\Telerik.Licensing.Runtime.dll</HintPath>
-	  </Reference>
+	  </Reference>   
+	
+		
 	  <Reference Include="Telerik.Maui.Controls">
-	    <HintPath>..\..\..\TrialTelerik\NET_Maui10.1.0\Binaries\Net9\Telerik.Maui.Controls.dll</HintPath>
-	  </Reference> 
+	    <HintPath>..\..\..\TrialTelerik\NET_Maui10.1.0\Binaries\Net9\Crack\Telerik.Maui.Controls.dll</HintPath>
+	  </Reference>   
+	
+	
+	
 	 
 	  <Reference Include="Telerik.Maui.Controls.Compatibility">
 	    <HintPath>..\..\..\TrialTelerik\NET_Maui10.1.0\Binaries\Net9\Shared\Telerik.Maui.Controls.Compatibility.dll</HintPath>
