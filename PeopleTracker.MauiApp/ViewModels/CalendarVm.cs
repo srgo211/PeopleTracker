@@ -4,7 +4,7 @@ using PeopleTracker.Domain.Entities;
 
 namespace PeopleTracker.MauiApp.ViewModels;
 
-internal class CalendarViewModel : ViewModel
+internal class CalendarVm : ViewModel
 {
     private readonly GenerateCalendarGridUseCase _useCase;
 
@@ -12,7 +12,7 @@ internal class CalendarViewModel : ViewModel
 
     public ObservableCollection<DateOnly> Dates { get; private set; } = new();
 
-    public CalendarViewModel(GenerateCalendarGridUseCase useCase)
+    public CalendarVm(GenerateCalendarGridUseCase useCase)
     {
         _useCase = useCase;
     }
